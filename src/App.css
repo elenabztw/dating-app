@@ -1,0 +1,104 @@
+/* Reset body styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+/* Main container */
+.cont {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #D1E8E4;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Image styling */
+.container img {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+}
+
+/* Name and ID */
+.container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #003b58;
+}
+
+/* Description */
+.container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 15px 0;
+  padding: 0 10px;
+}
+
+/* Age */
+.container h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #2f2f2f;
+}
+
+/* Button container */
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Buttons */
+button {
+  background-color: #C37B89;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #A64F65;
+  transform: translateY(-2px);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+  .cont {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .container img {
+    width: 250px;
+  }
+
+  .container h1 {
+    font-size: 1.4rem;
+  }
+
+  .container h3 {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+}
