@@ -23,20 +23,7 @@ A simple React application to view a list of people one by one, with the ability
 
 ---
 
-##  Installation & Run
-
-# Clone the repository
-git clone https://github.com/your-username/person-viewer.git
-cd person-viewer
-
-# Install dependencies
-npm install
-
-# Run the app
-npm start
-
-
-**Usage**
+## Usage
 
 View one person at a time on the screen.
 
